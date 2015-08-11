@@ -21,8 +21,8 @@ Configuration
 * Enter the api key you got in step one
 * Optiionally create a template
 * Go to ACP - Apperance - Custom HTML & CSS
-* And in the Custom Header box enter (wish I knew how to avoid this bit)....
-````<script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs"></script>````
+* And in the Custom Header box enter (wish I knew how to avoid this bit)....  
+````<script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs"></script>````  
 The templating isnt the inbuilt stuff (dont know how/if I can use it yet), just something real simple.
 You can add the variables returned from the dropin wrapped in "{}"....
 ````
@@ -46,13 +46,14 @@ file = {
     thumbnailLink: "https://...?bounding_box=75&mode=fit",
 };
 ````
+For makdown this works good... ````[{name}]({link})````
 
 Credits
 ---
-Although these people didnt directly add to this, their code was used to figure out what the hell I should be doing ;)
-[nodebb-plugin-emailer-local](https://github.com/NodeBB/nodebb-plugin-emailer-local)
-Used to figure out how to do the admin page.
-[nodebb-plugin-code-button](https://github.com/henrikekblad/nodebb-plugin-code-button)
-How to create a button.
-[Retrieve setting value from the client side](https://community.nodebb.org/topic/5936/retrieve-setting-value-from-the-client-side)
-How get settings from the server, from the client.
+Although these people didnt directly add to this, their code was used to figure out what the hell I should be doing ;)  
+[nodebb-plugin-emailer-local](https://github.com/NodeBB/nodebb-plugin-emailer-local)  
+Used to figure out how to do the admin page.  
+[nodebb-plugin-code-button](https://github.com/henrikekblad/nodebb-plugin-code-button)  
+How to create a button.  
+[Retrieve setting value from the client   side](https://community.nodebb.org/topic/5936/retrieve-setting-value-from-the-client-side)  
+How get settings from the server, from the client.  
