@@ -1,0 +1,30 @@
+{
+  "name": "nodebb-plugin-dropbox-chooser",
+  "version": "0.2.1",
+  "description": "NodeBB plugin to add a button to Composer that allows the user to select a file from their Dropbox and have a link to it added to the post.",
+  "keywords": [
+    "nodebb",
+    "composer",
+    "button",
+    "dropbox"
+  ],
+  "homepage": "",
+  "bugs": {
+    "url": "",
+    "email": ""
+  },
+  "license": "MIT",
+  "author": {
+    "name": "PAEz",
+    "email": "cdkpaez@gmail.com",
+    "url": ""
+  },
+  "dependencies": {
+  },
+  "main": "index.js",
+  "repository": {
+  },
+  "nbbpm": {
+    "compatibility": "^0.6.0"
+  }
+}

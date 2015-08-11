@@ -1,0 +1,17 @@
+{
+    "id": "nodebb-plugin-dropbox-chooser",
+    "url": "",
+    "name": "Dropbox Chooser",
+    "description": "Adds a button to Composer that allows the user to select a file from their Dropbox and have a link to it added to the post.",
+    "library": "./index.js",
+    "templates": "./templates",
+    "hooks": [
+                { "hook": "filter:admin.header.build", "method": "admin.menu" },
+        { "hook": "static:app.load", "method": "init"}
+    ],
+    "scripts": [
+		"https://www.dropbox.com/static/api/2/dropins.js",
+		"./buttons.js"
+	],
+    "compatibility": "~0.5.0"
+}
